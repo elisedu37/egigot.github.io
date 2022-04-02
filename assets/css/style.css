@@ -1118,7 +1118,9 @@ section {
   height: 1px;
   background-color: #000;
 }
-
+ul#portfolio-flters {
+  flex-wrap: wrap;
+}
 .item {
   border: none;
   margin-bottom: 30px;
