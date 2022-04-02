@@ -313,8 +313,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/essai2.jpg") top right;
+  height: 88vh;
+  background: url("../img/header.jpg") top right;
   background-size: cover;
   position: relative;
 }
@@ -332,12 +332,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 0;
-  left: 0;
+  top: 10%;
+  left: 10%;
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   padding: 0 15px;
 }
@@ -384,7 +384,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
   }
   #hero h2 {
-    text-align: center;
     margin-bottom: 30px;
   }
 }
@@ -413,17 +412,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 40px;
-  border-radius: 50px;
   transition: 0.5s;
-  color: #fff;
-  background: #ffa76e;
-;
+  color: white;
+  border: #ffa76e;
+  border-bottom: solid #ffa76e;
 }
 
 #hero .btn-about:hover {
-  background: #D1ECFA;
+  border-bottom: solid #000;
 }
+#hero .hero-container .header-social {
+  display: flex;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1031,7 +1032,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #f3a200;
+  background: #000;
   color: #fff;
   text-decoration: none;
 }
@@ -1427,6 +1428,10 @@ section {
   .main-timeline .title {
       margin-bottom: 10px
   }
+}
+
+span.date {
+  color: #ffa76e;
 }
 
 /* service*/
