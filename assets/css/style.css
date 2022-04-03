@@ -1668,3 +1668,18 @@ section#services ul {
 .carousel-indicators li {
   background-color: #ffa76e;
 }
+
+i.icofont-paint {
+  font-size: 50px;
+  color: #ffa76e;
+
+}
+
+i.icofont-ui-folder {
+  font-size: 50px;
+}
+
+i.icofont-lens {
+  font-size: 50px;
+  color: #ffa76e;
+}
